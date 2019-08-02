@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFizzBuzzCSharp", "LearnFizzBuzzCSharp\LearnFizzBuzzCSharp.csproj", "{798F5967-D237-453C-89E2-D49A26C299F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnFizzBuzzCSharp.Tests", "LearnFizzBuzzCSharp.Tests\LearnFizzBuzzCSharp.Tests.csproj", "{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{798F5967-D237-453C-89E2-D49A26C299F9}.Release|x64.Build.0 = Release|Any CPU
 		{798F5967-D237-453C-89E2-D49A26C299F9}.Release|x86.ActiveCfg = Release|Any CPU
 		{798F5967-D237-453C-89E2-D49A26C299F9}.Release|x86.Build.0 = Release|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Debug|x86.Build.0 = Debug|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Release|x64.Build.0 = Release|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Release|x86.ActiveCfg = Release|Any CPU
+		{6B8E0005-C24D-442A-9A7A-BDFACA9427A7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
