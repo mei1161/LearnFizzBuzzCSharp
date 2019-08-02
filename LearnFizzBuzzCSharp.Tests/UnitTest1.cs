@@ -1,18 +1,16 @@
+using LearnFizzBuzzCSharp;
 using NUnit.Framework;
 
 namespace Tests
 {
     public class Tests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
 
         [Test]
-        public void Test1()
+        public void _1‚ªŽæ“¾‚Å‚«‚é()
         {
-            Assert.Pass();
+            var i = FizzBuzz.ReturnNum();
+            Assert.That(i, Is.EqualTo("1"));
         }
     }
 }

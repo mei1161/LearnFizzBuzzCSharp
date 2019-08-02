@@ -2,7 +2,12 @@
 
 namespace LearnFizzBuzzCSharp
 {
-    public class Class1
+    public class FizzBuzz
     {
+        public static string ReturnNum()
+        {
+            return "1";
+        }
+
     }
 }
