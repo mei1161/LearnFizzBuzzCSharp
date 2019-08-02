@@ -7,27 +7,27 @@ namespace Tests
     {
 
         [Test]
-        public void _1‚ªæ“¾‚Å‚«‚é()
+        public void _1ãŒå–å¾—ã§ãã‚‹()
         {
             var i = FizzBuzz.GetNum();
             Assert.That(i.ElementAt(0), Is.EqualTo("1"));
         }
 
         [Test]
-        public void _Fizz‚ªæ“¾‚Å‚«‚é()
+        public void _FizzãŒå–å¾—ã§ãã‚‹()
         {
             var i = FizzBuzz.GetNum();
             Assert.That(i.ElementAt(2), Is.EqualTo("Fizz"));
         }
 
         [Test]
-        public void _Buzz‚ªæ“¾‚Å‚«‚é()
+        public void _BuzzãŒå–å¾—ã§ãã‚‹()
         {
             var i = FizzBuzz.GetNum();
             Assert.That(i.ElementAt(4), Is.EqualTo("Buzz"));
         }
         [Test]
-        public void _FizzBuzz‚ªæ“¾‚Å‚«‚é()
+        public void _FizzBuzzãŒå–å¾—ã§ãã‚‹()
         {
             var i = FizzBuzz.GetNum();
             Assert.That(i.ElementAt(14), Is.EqualTo("FizzBuzz"));
