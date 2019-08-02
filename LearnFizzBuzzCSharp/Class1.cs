@@ -15,9 +15,8 @@ namespace LearnFizzBuzzCSharp
 
             // Array is an Enumerable
             // List is an Enumerable
-            var i = 0;
 
-            while(i++<100)
+            for(var i=1; i<=100;i++)
             {
                 if(i%15==0)
                 {
