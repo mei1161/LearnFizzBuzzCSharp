@@ -1,13 +1,42 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace LearnFizzBuzzCSharp
 {
     public class FizzBuzz
     {
-        public static string ReturnNum()
+        public static IEnumerable<string> GetNum()
         {
-            return "1";
-        }
+            // is-a 関係
+            // Dog is an animal.
+            // Cat is an animal.
 
+            // Animal is a dog.
+
+            // Array is an Enumerable
+            // List is an Enumerable
+            var i = 0;
+
+            while(i++<100)
+            {
+                if(i%15==0)
+                {
+                    yield return "FizzBuzz";
+                }
+                else if(i%3==0)
+                {
+                    yield return "Fizz";
+                }
+                else if(i%5==0)
+                {
+                    yield return "Buzz";
+                }
+                else
+                {
+                    yield return i.ToString();
+                }
+
+            }
+        }
     }
 }
